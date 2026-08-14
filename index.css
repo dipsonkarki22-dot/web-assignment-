@@ -1,0 +1,13 @@
+.paragraph{
+    text-align:center;
+    font-size:medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu{
+    text-align:left;
+}
+
+body{
+    background-color:antiquewhite;
+}
