@@ -1,13 +1,40 @@
-.paragraph{
-    text-align:center;
-    font-size:medium;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.menu{
-    text-align:end;
-}
 
 body{
     background-color:darkseagreen;
+}
+
+
+.img{
+    width:200px;
+    height:auto;
+    display:block;
+}
+
+.a{
+    display:block;
+
+}
+
+.form{
+    text-align: center;
+    
+}
+@media screen and (max-width: 400px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+        font-size: 14px;
+    }
+.projectscontainer{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:25px;
+}
+.image{
+    width:200px;
+    height:200px;
+    border:1px solid black;
+  
+}
 }
